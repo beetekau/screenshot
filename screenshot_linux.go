@@ -3,7 +3,7 @@ package screenshot
 import (
 	"image"
 
-	"github.com/beetekau/screenshot/internal/xwindow"
+	"screenshot/internal/xwindow"
 )
 
 // Capture returns screen capture of specified desktop region.

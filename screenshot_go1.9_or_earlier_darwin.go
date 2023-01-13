@@ -12,7 +12,7 @@ import (
 	"image"
 	"unsafe"
 
-	"github.com/beetekau/screenshot/internal/util"
+	"screenshot/internal/util"
 )
 
 func Capture(x, y, width, height int) (*image.RGBA, error) {
