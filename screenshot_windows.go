@@ -2,9 +2,9 @@ package screenshot
 
 import (
 	"errors"
+	"github.com/beetekau/screenshot/internal/util"
 	win "github.com/lxn/win"
 	"image"
-	"screenshot/internal/util"
 	"syscall"
 	"unsafe"
 )
